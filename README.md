@@ -1,24 +1,24 @@
-# 42 Template C
+# ft_printf
 
-Use this as a starting point to begin your project.
-Be aware that different projects need different structures
-when sending them for evaluation.
-You can change it to fit your needs.
+*Because ft_putnbr() and ft_putstr() aren’t enough*
+
+The goal of this project is pretty straightforward. You will recode printf().
+You will mainly learn about using a variable number of arguments. How cool is that??
+It is actually pretty cool :)
 
 ## Build
 
 Clone the repository then run `make`.
 
 ```bash
-git clone https://github.com/jaredyalves/42-template-c.git
-cd 42-template-c
+git clone https://github.com/jaredyalves/ft_printf.git
+cd ft_printf
 make
 ```
 
 ## Usage
 
-You could also edit this to explain how to use the project.
-You can delete this part if you don't need it.
+Include the static library `libftprintf.a` into your project.
 
 ## Contributing
 
