@@ -113,5 +113,6 @@ int	ft_printf(const char *format, ...)
 			written += write(1, p, 1);
 		p++;
 	}
+	va_end(args);
 	return (written);
 }
